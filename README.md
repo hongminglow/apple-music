@@ -1,12 +1,11 @@
-# Apple Music — PENCIL prototype
+# Apple Music — React + Tailwind (fully functional)
 
-This repository contains an experimental Apple Music–style React + Tailwind application generated from a PENCIL (.pen) design frame using the PENCIL AI tooling. It's a prototype meant only for testing the PENCIL → code workflow and exploring generated UI output.
+Apple Music–style desktop UI built from the included PENCIL design frame, with a real, working audio player (play/pause, seek, volume, next/prev, shuffle, repeat, queue).
 
-Important notes:
+Audio is **local**:
 
-- **Experimental:** This project is a demo of the PENCIL design-to-code feature. Expect rough edges, simplified assets, and placeholder data.
-- **Not production-ready:** Do not use this code as-is in production; it is intended for testing and evaluation only.
-- **Attribution:** The UI structure and visuals were produced from the included `pencil-new.pen` file.
+- This repo generates a few short **synthetic WAV** tracks in `public/audio/` so playback works out of the box (no copyrighted assets).
+- You can replace them with your own files by updating `src/music/library.ts`.
 
 Quick start
 
@@ -22,12 +21,19 @@ npm install
 npm run dev
 ```
 
+3. (Optional) Regenerate the built-in tracks:
+
+```bash
+python3 scripts/generate_synthetic_audio.py
+```
+
 3. Build for production:
 
 ```bash
 npm run build
 ```
 
-Feedback or issues
+Notes
 
-If you find problems with the generated output or want improvements for the PENCIL export, please open an issue in this repository describing the mismatch and attaching the relevant .pen frame or screenshots.
+- Design reference: `pencil-new.pen`
+- UI design-system output: `design-system/apple-music/MASTER.md`

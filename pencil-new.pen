@@ -69,44 +69,44 @@
                 },
                 {
                   "type": "frame",
+                  "id": "nrnnd",
+                  "name": "Listen Now",
+                  "width": "fill_container",
+                  "fill": "#1C1C24",
+                  "cornerRadius": 10,
+                  "gap": 10,
+                  "padding": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rWova",
+                      "name": "btn1Icon",
+                      "fill": "#F5F5F7",
+                      "content": "▶",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5lm5v",
+                      "name": "btn1Text",
+                      "fill": "#F5F5F7",
+                      "content": "Listen Now",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "f4NLu",
                   "name": "Nav",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 8,
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "nrnnd",
-                      "name": "Listen Now",
-                      "width": "fill_container",
-                      "fill": "#1C1C24",
-                      "cornerRadius": 10,
-                      "gap": 10,
-                      "padding": 10,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "rWova",
-                          "name": "btn1Icon",
-                          "fill": "#F5F5F7",
-                          "content": "▶",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "5lm5v",
-                          "name": "btn1Text",
-                          "fill": "#F5F5F7",
-                          "content": "Listen Now",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "2vFt4",
@@ -347,7 +347,7 @@
                               "type": "text",
                               "id": "qgrwX",
                               "name": "heroTitle",
-                              "fill": "#F5F5F7",
+                              "fill": "#f5f7f6ff",
                               "content": "Synthwave Essentials",
                               "fontFamily": "Inter",
                               "fontSize": 28,
@@ -614,7 +614,7 @@
                   "height": 20,
                   "iconFontName": "heart",
                   "iconFontFamily": "lucide",
-                  "fill": "#D4D4D8"
+                  "fill": "#ef1509ff"
                 }
               ]
             },
